@@ -1,0 +1,17 @@
+{
+	"tasks": {
+		"dev": "deno run --env=.env --watch src/index.ts"
+	},
+	"imports": {
+		"@anthropic-ai/sdk": "npm:@anthropic-ai/sdk@^0.32.1"
+	},
+	"fmt": {
+		"options": {
+			"useTabs": true,
+			"lineWidth": 120,
+			"indentWidth": 4,
+			"singleQuote": false,
+			"proseWrap": "always"
+		}
+	}
+}
